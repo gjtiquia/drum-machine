@@ -19,7 +19,7 @@ function App() {
       </main>
 
       <footer className="flex justify-end">
-        <a target="_blank" href="https://github.com/gjtiquia/markdown-previewer" className="p-3" rel="noreferrer">
+        <a target="_blank" href="https://github.com/gjtiquia/drum-machine" className="p-3" rel="noreferrer">
           <img alt="GitHub link" src='/github.svg' className="w-8"></img>
         </a>
       </footer>
