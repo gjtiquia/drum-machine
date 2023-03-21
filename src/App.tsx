@@ -12,10 +12,21 @@ function App() {
         </h1>
       </header>
 
-      <main>
-        <h1>
-          Hello World!
-        </h1>
+      <main className='justify-self-center'>
+        <div id='drum-machine' className='bg-slate-700 p-10 flex flex-col items-center rounded-2xl'>
+          <div id='display' className='bg-slate-800 w-64 text-center py-3 mb-5 text-slate-400'>Display</div>
+          <div className='grid grid-cols-3 gap-4'>
+            <button className='drum-pad bg-slate-600 w-32 h-32 text-3xl'>Q</button>
+            <button className='drum-pad bg-slate-600 w-32 h-32 text-3xl'>W</button>
+            <button className='drum-pad bg-slate-600 w-32 h-32 text-3xl'>E</button>
+            <button className='drum-pad bg-slate-600 w-32 h-32 text-3xl'>A</button>
+            <button className='drum-pad bg-slate-600 w-32 h-32 text-3xl'>S</button>
+            <button className='drum-pad bg-slate-600 w-32 h-32 text-3xl'>D</button>
+            <button className='drum-pad bg-slate-600 w-32 h-32 text-3xl'>Z</button>
+            <button className='drum-pad bg-slate-600 w-32 h-32 text-3xl'>X</button>
+            <button className='drum-pad bg-slate-600 w-32 h-32 text-3xl'>C</button>
+          </div>
+        </div>
       </main>
 
       <footer className="flex justify-end">
