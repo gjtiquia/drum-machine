@@ -1,9 +1,8 @@
 import { DrumPad } from './DrumPad';
-import { useState } from 'react'
+import { KeyboardEvent, useEffect, useState } from 'react'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className="bg-slate-800 text-white min-h-screen grid grid-rows-[auto_1fr_auto] grid-cols-1">
